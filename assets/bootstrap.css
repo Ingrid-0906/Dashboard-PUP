@@ -381,7 +381,6 @@ border-bottom: 1px solid rgb(222, 226, 230);
   #ageChart,
   #maritalChart,
   #schoolChart{
-    height: 70vh !important;
     padding: 0;
     padding-top: 1rem;
   }
@@ -471,7 +470,7 @@ border-bottom: 1px solid rgb(222, 226, 230);
   #ageChart,
   #maritalChart,
   #schoolChart{
-    height: 70vh;
+    height: 60vh;
     padding: 0;
     padding-top: 1rem;
   }
