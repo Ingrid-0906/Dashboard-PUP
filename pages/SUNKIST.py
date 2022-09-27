@@ -173,7 +173,7 @@ for i in range(0,len(key)):
 	    	dl.Marker(title=key.iloc[i]['name_store'],
 	    		position=(key.iloc[i]['latitude'], key.iloc[i]['longitude']),
 	    		children=[
-	    			dl.Tooltip([html.H5(key.iloc[i]['name_store']), html.H5(key.iloc[i]['name']), html.H5(key.iloc[i]['price'])])
+	    			dl.Tooltip([html.H5(key.iloc[i]['name_store']), html.H5(key.iloc[i]['name']), html.H5(f"Price: ${key.iloc[i]['price']}")])
 	    		]
 	    	)
 	    )
