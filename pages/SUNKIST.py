@@ -286,29 +286,29 @@ layout = html.Div(children=[
 			html.Div(className='row-1', children=[
 				html.Div(className="gender-div", children=[
 					html.H4(className="chart-title", children=['Gender']),
-					dcc.Graph(style={'height':'53vh'}, figure=genderChart, responsive=True)
+					dcc.Graph(style={'height':'50vh','padding':'1rem'}, figure=genderChart, responsive=True)
 				]),
 				html.Div(className="race-div", children=[
 					html.H4(className="chart-title", children=['Race']),
-					dcc.Graph(style={'height':'53vh'}, figure=raceChart, responsive=True)
+					dcc.Graph(style={'height':'50vh','padding':'1rem'}, figure=raceChart, responsive=True)
 				]),
 				html.Div(className="income-div", children=[
 					html.H4(className="chart-title", children=['Income']),
-					dcc.Graph(style={'height':'53vh'}, figure=incomeChart, responsive=True)
+					dcc.Graph(style={'height':'50vh','padding':'1rem'}, figure=incomeChart, responsive=True)
 				])#
 			]),
 			html.Div(className='row-2', children=[
 				html.Div(className="age-div", children=[
 					html.H4(className="chart-title", children=['Age']),
-					dcc.Graph(style={'height':'53vh'}, figure=ageChart, responsive=True)
+					dcc.Graph(style={'height':'50vh','padding':'1rem'}, figure=ageChart, responsive=True)
 				]),
 				html.Div(className="marital-div", children=[
 					html.H4(className="chart-title", children=['Gender']),
-					dcc.Graph(style={'height':'53vh'}, figure=maritalChart, responsive=True)
+					dcc.Graph(style={'height':'50vh','padding':'1rem'}, figure=maritalChart, responsive=True)
 				]),
 				html.Div(className="school-div", children=[
 					html.H4(className="chart-title", children=['Education']),
-					dcc.Graph(style={'height':'53vh'}, figure=schoolChart, responsive=True)
+					dcc.Graph(style={'height':'50vh','padding':'1rem'}, figure=schoolChart, responsive=True)
 				])
 			])
 		])
@@ -329,8 +329,8 @@ layout = html.Div(children=[
 			]),
 			html.Div(className="chart-table", children=[
 				html.Div(className="div-pie-chart", children=[
-					dcc.Graph(style={'height':'25vh', 'width':'50%'}, id='priceChart-sunkist', responsive=True),
-					dcc.Graph(style={'height':'25vh', 'width':'50%'}, id='storeChart-sunkist', responsive=True)
+					dcc.Graph(style={'height':'30vh', 'width':'50%'}, id='priceChart-sunkist', responsive=True),
+					dcc.Graph(style={'height':'30vh', 'width':'50%'}, id='storeChart-sunkist', responsive=True)
 				]),
 				html.Div(className='table-style', children=[
 					dmc.Table(highlightOnHover=True,
