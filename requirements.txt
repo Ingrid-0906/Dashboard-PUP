@@ -6,3 +6,8 @@ dash-iconify==0.1.2
 dash-leaflet==0.1.23
 dash-mantine-components==0.10.2
 dash-table==5.0.0
+gunicorn==20.1.0
+matplotlib==3.5.2
+numpy==1.23.0
+pandas==1.4.3
+plotly==5.9.0
