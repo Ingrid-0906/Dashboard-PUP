@@ -3,13 +3,10 @@ from dash import dcc, html, Input, Output
 import dash_mantine_components as dmc
 from dash_iconify import DashIconify as ic
 
-app = dash.Dash(__name__, use_pages=True,
+app = dash.Dash(__name__, use_pages=True, config.suppress_callback_exceptions=True,
 	meta_tags=[{'name':'viewport','content':'width=devide-width, initial-scale=1.0, maximum-scale=1.2, minimum-scale=0.5,'}])
 
 server = app.server
-server.secret_key=os.environ.get('secret_key','secret')
-app.config.suppress_callback_exceptions=True
-
 
 app.layout = html.Div([
 	html.Div(id='locs'),
