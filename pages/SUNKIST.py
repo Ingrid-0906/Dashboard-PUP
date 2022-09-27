@@ -286,29 +286,29 @@ layout = html.Div(children=[
 			html.Div(className='row-1', children=[
 				html.Div(className="gender-div", children=[
 					html.H4(className="chart-title", children=['Gender']),
-					dcc.Graph(style={'heigh':'53vh'}, figure=genderChart, responsive=True)
+					dcc.Graph(style={'height':'53vh'}, figure=genderChart, responsive=True)
 				]),
 				html.Div(className="race-div", children=[
 					html.H4(className="chart-title", children=['Race']),
-					dcc.Graph(style={'heigh':'53vh'}, figure=raceChart, responsive=True)
+					dcc.Graph(style={'height':'53vh'}, figure=raceChart, responsive=True)
 				]),
 				html.Div(className="income-div", children=[
 					html.H4(className="chart-title", children=['Income']),
-					dcc.Graph(style={'heigh':'53vh'}, figure=incomeChart, responsive=True)
+					dcc.Graph(style={'height':'53vh'}, figure=incomeChart, responsive=True)
 				])#
 			]),
 			html.Div(className='row-2', children=[
 				html.Div(className="age-div", children=[
 					html.H4(className="chart-title", children=['Age']),
-					dcc.Graph(style={'heigh':'53vh'}, figure=ageChart, responsive=True)
+					dcc.Graph(style={'height':'53vh'}, figure=ageChart, responsive=True)
 				]),
 				html.Div(className="marital-div", children=[
 					html.H4(className="chart-title", children=['Gender']),
-					dcc.Graph(style={'heigh':'53vh'}, figure=maritalChart, responsive=True)
+					dcc.Graph(style={'height':'53vh'}, figure=maritalChart, responsive=True)
 				]),
 				html.Div(className="school-div", children=[
 					html.H4(className="chart-title", children=['Education']),
-					dcc.Graph(style={'heigh':'53vh'}, figure=schoolChart, responsive=True)
+					dcc.Graph(style={'height':'53vh'}, figure=schoolChart, responsive=True)
 				])
 			])
 		])
