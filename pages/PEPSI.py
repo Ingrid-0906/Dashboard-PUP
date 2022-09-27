@@ -90,9 +90,10 @@ incomeChart = go.Figure(data=[go.Bar(y=inc['Label'],
 #FORMATING CHART - INCOME
 incomeChart.update_layout(showlegend=False,
                            bargap=0.5,
-                           margin=dict(l=0,r=0,b=0,t=0,pad=4),
+                           margin=dict(l=0,r=0,b=0,t=10,pad=4),
                            paper_bgcolor='#fff',
                            plot_bgcolor='#fff')
+incomeChart.update_xaxes(visible=False)
 
 incomeChart.update_traces(marker_color='#004f74', 
                            width=0.3,
